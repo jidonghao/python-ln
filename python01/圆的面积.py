@@ -1,5 +1,5 @@
 import math
-r = 2;
+r = float(input('输入半径:'))
 s = math.pi*r*r
 l = math.pi*2*r
 print('圆的面积是',s)
