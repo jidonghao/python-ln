@@ -1,10 +1,13 @@
 """
     输入一个秒值，算出距离当日午夜的时间
     格式：HH:MM:SS
+    方式1
 """
+
+
 class TimeStruct:
     def __init__(self):
-        self.hour = 11
+        self.hour = 23
         self.minute = 59
         self.second = 60
 
@@ -12,7 +15,7 @@ class TimeStruct:
 inTime = TimeStruct()
 inTime.second = int(input("请输入秒："))
 if inTime.second == 0:
-    print("现在的时间是：00:00:00")
+    print("现在的时间是：24:00:00")
 else:
     # 计算格式化后的时间
     inTime.hour = inTime.second // 3600  # 地板除得小时
