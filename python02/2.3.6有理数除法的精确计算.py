@@ -1,0 +1,21 @@
+# P27 有理数的精确计算
+p = 0
+while p <= 0:
+    p = int(input('Enter p:'))
+q = 0
+while q <= 0:
+    q = int(input("Enter q:"))
+n = 0
+while n <= 0:
+    n = int(input("Enter n:"))
+s = str(p // q)
+r = p % q
+if r != 0:
+    s += "."
+while r != 0 and n > 0:
+    r *= 10
+    s += str(r // q)
+    r %= q
+    n -= 1
+print("%d/%d=%f" % (p, q, p / q))
+print("%d/%d=%s" % (p, q, s))
