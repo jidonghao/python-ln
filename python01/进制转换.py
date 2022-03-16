@@ -1,0 +1,5 @@
+n = int(input("输入十进制数字:"))
+print("十进制数为：", n)
+print("转换为二进制为：", bin(n))
+print("转换为八进制为：", oct(n))
+print("转换为十六进制为：", hex(n))
