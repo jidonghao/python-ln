@@ -1,4 +1,3 @@
-# P21 2-2-1
 m = float(input("输入成绩："))
 if m < 0 or m > 100:
     print("输入无效")
