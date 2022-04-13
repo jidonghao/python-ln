@@ -7,6 +7,6 @@ while m < n:
         break
     m += 1
 if m == n:
-    print("%d是素数" % n)
+    print("%d是质数" % n)
 else:
-    print("%d不是素数" % n)
+    print("%d不是质数" % n)

@@ -1,4 +1,3 @@
-# 计算 求到8
 i = 1
 sum = 0
 while True:
