@@ -1,7 +1,10 @@
+def printf(str):
+    return print(str)
+
 def say_hello():
-    print("你好呀!")
-    print("你好呀！！")
-    print("你好呀！！！")
+    printf("你好呀!")
+    printf("你好呀！！")
+    printf("你好呀！！！")
 
 
 say_hello()
