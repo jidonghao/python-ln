@@ -39,3 +39,23 @@ print("{0:,}".format(314159267))
 print("{0:.5f}".format(3.1415926))
 print("{:.5}".format("python"))
 print("{0:10.5f}".format(3.1415926))
+
+print("-----------------------")
+
+print(0.2 + 0.1 > 0.3)
+
+a = "abcabcabcabcabc"
+print(a.index("bc"))
+print(a.find("bc"))
+print(a.find("bcd"))
+print(a.rindex("bc"))
+
+print("--------------")
+
+str1 = "a1b2 c3d4 aaaa"
+print(str1.split(" "))
+print(str1.split(" ", 1))
+
+str1 = "刘明真帅帅"
+print(str1.replace("帅", "俊"))
+print(str1.replace("帅", "俊",1))
