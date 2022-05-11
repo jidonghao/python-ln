@@ -35,10 +35,12 @@ print(list(dict.fromkeys(ls4)))
 ls4 = [1, 2, 5, 2, 9, 1, 3, 2, 1, 1]
 print("四")
 print(ls4)
-a = 0
+length = len(ls4)
 for i in range(0, len(ls4)):
     for j in range(i + 1, len(ls4)):
         if ls4[i] == ls4[j]:
             ls4.pop(j)
-            break
+            length = len(ls4)
+
+
 print(ls4)
