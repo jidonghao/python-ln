@@ -42,3 +42,32 @@ list3 = [True, False, "hello"]
 name_list[1:] = list3
 print(name_list)
 
+print("---------")
+name_list = ["张三", "李四", "王五"]
+# name_list.remove("李四")
+print(name_list)
+# name_list.pop(2)
+print(name_list)
+# name_list.pop()
+print(name_list)
+# del name_list[0]
+print(name_list)
+
+name_list.clear()
+print(name_list)
+
+del name_list
+print("-----")
+lst = [1, 3, 6, 4, 33, 3, 7, 8]
+print(len(lst))
+print(lst.count(33))
+
+lst.sort()
+print(lst)
+lst.sort(reverse=True)
+print(lst)
+lst.sort(reverse=False)
+print(lst)
+
+lst.reverse()
+print(lst)
